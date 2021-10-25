@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import './GlobalCss/GlobalCss.css';
+import WebAndMobile from './pages/HomePage/CompareSection/WebAndMobile';
+import FeatureSection from './pages/HomePage/FeatureSection/FeatureSection';
+import Hero from './pages/HomePage/HeroSection/Hero';
+import HireingSection from './pages/HomePage/HireingSection/HireingSection';
+import PartnerSection from './pages/HomePage/PartnerSection/PartnerSection';
+import TestimonialSection from './pages/HomePage/TestimonialSection/TestimonialSection';
+import TestResourses from './pages/HomePage/TestResourses/TestResourses';
+import Footer from './pages/SharedComponents/Footer/Footer';
+import Header from './pages/SharedComponents/Header/Header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+     <Header />
+        <Switch>
+          <Route exact path="/">
+            <Hero />
+            <FeatureSection />
+            <TestimonialSection />
+            <WebAndMobile />
+            <PartnerSection />
+            <TestResourses />
+            <HireingSection />
+            <Footer />
+          </Route>
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }

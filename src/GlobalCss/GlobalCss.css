@@ -1,0 +1,543 @@
+/* Import Ubuntu Google font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/* Common css */
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+
+/* Header css */
+.headerSection {
+    background: rgb(77 32 121 / 61%);
+    padding: 7px 0px;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+a.nav-link {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px 20px;
+    color: white!important;
+    transition: .3s;
+}
+a.nav-link:hover{
+    color: #27b67c!important;
+}
+
+a#proActive{
+    color: #27b67c!important;
+}
+/* Hero section css */
+.heroSection {
+    height: auto;
+    background: linear-gradient(rgb(77 32 121 / 61%), rgb(77 32 121 / 61%)), url("https://2aih25gkk2pi65s8wfa8kzvi-wpengine.netdna-ssl.com/wp-content/uploads/2015/08/hero.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+    color: white;
+}
+
+h1.heading {
+    font-size: 3.75rem;
+    font-weight: 400;
+    line-height: 80px;
+    margin-bottom: 6.25rem;
+}
+
+span.subTitle {
+    font-size: 22px;
+    margin-bottom: 1.25rem;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.categories2 {
+    display: flex;
+}
+
+span.rMark {
+    position: relative;
+    top: -10px;
+}
+
+.category {
+    background: #27b67c;
+    border-radius: 3px;
+    margin-right: 1.875rem;
+    padding: 15px 38px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* Feture section css  */
+.featureSection {
+    padding: 5.625rem 0px;
+}
+
+.featureBox {
+    /* width: 365px; */
+    text-align: center;
+}
+
+.featureBox img {
+    width: 105px;
+    margin-bottom: 20px;
+}
+
+h2.title {
+    color: #716f79;
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+p.desc {
+    color: #716f79;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+/* Gre and Testimonial section css */
+.testimonialSection {
+    padding: 100px 0px;
+    background: linear-gradient(rgb(77 32 121 / 61%), rgb(77 32 121 / 61%)), url("https://2aih25gkk2pi65s8wfa8kzvi-wpengine.netdna-ssl.com/wp-content/uploads/2019/09/magoosh-speaking-e1567631109833.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+p.heading {
+    font-size: 2.1875rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+button.regularBtn {
+    color: white;
+    background: #26b67c;
+    border: navajowhite;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 2px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+button.regularBtn:hover {
+       background: #2ac787;
+       transition: .3s;
+}
+
+img.testimonialImg {
+    width: 125px;
+    height: 125px;
+    margin-bottom: 15px;
+}
+
+.testimonial {
+    background: #26b67c;
+    color: white;
+    padding: 80px 0px;
+}
+
+p.reviewDesc {
+    font-size: 20px;
+    letter-spacing: 2px;
+    width: 80%;
+    margin: auto;
+}
+
+
+h4.studentName {
+    font-size: 20px;
+}
+
+button.formalBtn {
+    background: white;
+    border: none;
+    padding: 10px 30px;
+    font-weight: 500;
+    color: #26b67c;
+    font-size: 20px;
+    border-radius: 2px;
+}
+
+button.formalBtn:hover {
+    background: #4d2079;
+    transition: .5s;
+    color: #fff;
+}
+
+/* Compare section css starts from here */
+.compareSection {
+    padding: 150px 0px;
+}
+
+.compareBox {
+    display: flex;
+    margin: 15px 0px;
+    padding: 10px 80px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.svgIcon img.parentImg {
+    width: 120px;
+    height: 100px;
+}
+
+.details {
+    padding-left: 60px;
+    color: #4d2079;
+}
+
+h2.boxName {
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+p.boxDesc {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+p.boxDesc2 {
+    color: #716f79;
+    font-size: 19px;
+    padding-top: 15px;
+}
+
+.svgIcon img {
+    width: 50px;
+    height: 50px;
+}
+
+.svgIcon {
+    width: 23%;
+    text-align: center;
+}
+
+
+/* Partner section css */
+.partnerSection {
+    padding: 60px 0px;
+    background: #26b67c;
+    text-align: center;
+    color: white;
+}
+
+h3.heading {
+    font-size: 1.25rem;
+    margin: 30px 0px;
+    letter-spacing: 1px;
+}
+
+
+/* Test and resourses css */
+
+.testResourses {
+    padding: 60px 0px;
+}
+
+h3.headline {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    color: #716f79;
+}
+
+.testBox {
+    width: 100%;
+    background: #4d2079;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    margin: 15px 0px;
+}
+
+h4.testName {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+/* Hiring section */
+.hiringSection {
+    padding: 150px 0px;
+    background: linear-gradient(rgb(77 32 121 / 52%), rgb(77 32 121 / 52%)), url("https://2aih25gkk2pi65s8wfa8kzvi-wpengine.netdna-ssl.com/wp-content/uploads/2015/08/desks.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+h2.hedline {
+    line-height: 45px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+
+/* Footer section css */
+.footerSection {
+    padding: 50px 0px;
+    background: #27b67c;
+    color: white;
+    font-size: 30px;
+}
+
+.authorMeta a {
+    color: purple;
+    text-decoration: none;
+}
+
+.socialMeta {
+    text-align: right;
+}
+
+.socialMeta span {
+    margin: 15px 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.socialMeta span:hover{
+    color: #4d2079;
+}
+
+
+/* Responsive css start from here */
+@media only screen and (max-width: 1080px) {
+    .categories {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .categories2 {
+        display: grid;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    h1.heading {
+        font-size: 2.7rem;
+        font-weight: 400;
+        line-height: 55px;
+        margin-bottom: 4rem;
+    }
+    
+    .categories {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .categories2 {
+        display: grid;
+    }
+
+    p.heading {
+        font-size: 1.7rem;
+        letter-spacing: 2px;
+        font-weight: 500;
+        margin-bottom: 35px;
+    }
+
+    .compareBox {
+        display: block;
+        margin: 15px 0px;
+        padding: 10px 80px;
+    }
+     
+    h2.boxName {
+        font-size: 2.25rem;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+
+    .details {
+        padding-left: 0px;
+        color: #4d2079;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .heroSection {
+        height: auto;
+        background: linear-gradient(rgb(77 32 121 / 61%), rgb(77 32 121 / 61%)), url("https://2aih25gkk2pi65s8wfa8kzvi-wpengine.netdna-ssl.com/wp-content/uploads/2015/08/hero.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 150px 0px;
+        color: white;
+    }
+
+    h1.heading {
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 45px;
+        margin-bottom: 2rem;
+    }
+
+    .featureBox {
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    p.heading {
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+        font-weight: 500;
+        margin-bottom: 35px;
+    }
+
+    .compareBox {
+        display: block;
+        margin: 15px 0px;
+        padding: 10px 10px;
+    }
+
+    .hiringSection {
+        padding: 100px 0px;
+    }
+
+    h2.hedline {
+        line-height: 35px;
+        margin-bottom: 43px;
+        font-size: 24px;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+    .footerSection {
+        padding: 50px 0px;
+        background: #27b67c;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .socialMeta {
+        text-align: center;
+    }
+}
+
+
+
+@media only screen and (max-width: 425px) {
+h1.heading {
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 50px;
+    margin-bottom: 2rem;
+}
+
+.heroSection {
+    padding: 100px 0px;
+}
+
+.compareBox {
+    display: block;
+    margin: 15px 0px;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.svgIcon {
+    width: 30%;
+    margin: auto;
+}
+h3.headline {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    color: #716f79;
+}
+
+h2.hedline {
+    line-height: 35px;
+    margin-bottom: 43px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.category{
+    width: 100%;
+}
+
+span.subTitle {
+    font-size: 19px;
+}
+
+
+}
+
+
+@media only screen and (max-width: 375px) {
+    h1.heading {
+        font-size: 2rem;
+        line-height: 45px;
+        margin-bottom: 2rem;
+    }
+
+    h3.headline {
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 0px;
+        color: #716f79;
+    }
+
+    h2.hedline {
+        line-height: 30px;
+        margin-bottom: 43px;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+
+h3.heading {
+    font-size: 1rem;
+    margin: 30px 0px;
+    letter-spacing: 1px;
+}
+
+
+h3.headline {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    color: #716f79;
+}
+
+h2.hedline {
+    line-height: 25px;
+    margin-bottom: 43px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.authorMeta {
+    font-size: 20px;
+}
+
+}
